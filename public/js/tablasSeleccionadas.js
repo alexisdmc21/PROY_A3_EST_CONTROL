@@ -1,5 +1,15 @@
-let tipo = prompt("Desea ver las tablas de multiplicar de números 'pares' o 'impares'");
+/*Actividad 3: IF + FOR - Tablas pares o impares
 
+Enunciado:
+Crea un programa en un archivo .js externo que le pida al usuario si quiere ver las tablas de multiplicar de números pares o impares entre 1 y 10.
+Usa if para decidir qué tipo mostrar, y for para imprimir las tablas del 1 al 10 según lo que el usuario elija.
+
+Ejemplo:
+
+Si el usuario escribe "pares", mostrar tablas del 2, 4, 6, 8, 10.
+Si el usuario escribe "impares", mostrar tablas del 1, 3, 5, 7, 9.*/
+
+let tipo = prompt("Desea ver las tablas de multiplicar de números 'pares' o 'impares'");
 
 tipo = tipo.toLowerCase();
 
